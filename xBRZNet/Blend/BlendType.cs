@@ -1,10 +1,10 @@
 ﻿namespace xBRZNet.Blend
 {
-    internal enum BlendType
+    internal sealed class BlendType
     {
         // These blend types must fit into 2 bits.
-        None = 0, //do not blend
-        Normal = 1,//a normal indication to blend
-        Dominant = 2 //a strong indication to blend
+        public const char None = (char)0; //do not blend
+		public const char Normal = (char)1; //a normal indication to blend
+        public const char Dominant = (char)2; //a strong indication to blend
     }
 }

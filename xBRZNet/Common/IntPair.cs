@@ -2,13 +2,13 @@
 {
     internal class IntPair
     {
-        public int I { get; set; }
-        public int J { get; set; }
+		public readonly int i;
+		public readonly int j;
 
         public IntPair(int i, int j)
         {
-            I = i;
-            J = j;
+            this.i = i;
+            this.j = j;
         }
     }
 }

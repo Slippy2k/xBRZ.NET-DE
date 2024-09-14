@@ -2,27 +2,27 @@
 {
     internal class IntPtr
     {
-        private readonly int[] _array;
-        private int _ptr;
+        private readonly int[] arr;
+        private int ptr;
 
-        public IntPtr(int[] array)
+        public IntPtr(int[] intArray)
         {
-            _array = array;
+            arr = intArray;
         }
 
         public void Position(int position)
         {
-            _ptr = position;
+            ptr = position;
         }
 
         public int Get()
         {
-            return _array[_ptr];
+            return arr[ptr];
         }
 
         public void Set(int val)
         {
-            _array[_ptr] = val;
+            arr[ptr] = val;
         }
     }
 }

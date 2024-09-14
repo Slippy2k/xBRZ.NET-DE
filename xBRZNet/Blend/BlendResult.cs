@@ -2,14 +2,14 @@
 {
     internal class BlendResult
     {
-        public char F { get; set; }
-        public char G { get; set; }
-        public char J { get; set; }
-        public char K { get; set; }
+        public char f { get; set; }
+        public char g { get; set; }
+        public char j { get; set; }
+        public char k { get; set; }
 
         public void Reset()
         {
-            F = G = J = K = (char)0;
+            f = g = j = k = (char)0;
         }
     }
 }
