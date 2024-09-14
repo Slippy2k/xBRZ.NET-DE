@@ -20,7 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config.h">
+    <ClInclude Include="xbrz_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xbrz_tools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="xbrz.h">
